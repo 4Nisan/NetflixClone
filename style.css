@@ -1,3 +1,11 @@
+img{
+     max-width: 100%;
+}
+
+body{
+    background-color: black;
+}
+
 .netflixHeader{
     width: 100%;
     height: 100vh;
@@ -8,5 +16,13 @@
     display: flex;
     align-items: center;
 }
-.img{max-width: 100%;
+
+.accordion-item{
+    margin-top: .5rem;
+    border: none;
+}
+
+.accordion-button{
+    background-color: rgb(44, 44, 44);
+    color: white;
 }
