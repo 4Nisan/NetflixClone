@@ -22,14 +22,31 @@ body{
     border: none;
 }
 
-.accordion-button{
+
+.accordion-button , .accordion-button:not(.collapsed){
     background-color: rgb(44, 44, 44);
     color: white;
 }
+
 .accordion-button::after{
-    background-image: url("arrow-down-sign-to-navigate.png");
+    background-image: url("plus.png");
 }
-.accordion-button:not(.collapsed){
-    background-color: rgb(44, 44, 44);
-    color: #fff;
+
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url("eksi.png");
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li a{
+    color: white;
 }
