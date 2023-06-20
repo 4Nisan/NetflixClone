@@ -1,52 +1,424 @@
-img{
-     max-width: 100%;
+img {
+    max-width: 100%;
+
 }
 
-body{
+body {
     background-color: black;
 }
 
-.netflixHeader{
+.navbar {
+    overflow-x: hidden;
+  }
+  
+
+  
+
+.netflixHeader {
     width: 100%;
-    height: 100vh;
-    background: linear-gradient(rgba(0,0,0,.5) , rgba(0,0,0,.5)) , url("img/arkaplan.jpg");
+    height: 78vh;
+    background-image: linear-gradient(rgba(0,0,1,.8), rgba(0,0,0,.5)), url(img/anasayfaresim.jpg);
+    background-position: center;
+    background-size: cover;
 }
-.headerBody{
+
+.netflixHeader img {
+   color: red;
+}
+
+.headerBody {
     height: 60%;
     display: flex;
     align-items: center;
 }
 
+
+hr {
+    border-top: 10px solid rgb(57, 57, 57); 
+    width: 100%;
+  }
+
+
 .accordion-item{
     margin-top: .5rem;
     border: none;
 }
-
-
-.accordion-button , .accordion-button:not(.collapsed){
-    background-color: rgb(44, 44, 44);
-    color: white;
-}
-
+  
 .accordion-button::after{
-    background-image: url("plus.png");
+  background-image: url("plus.png");
 }
 
-
-.accordion-button:not(.collapsed)::after{
-    background-image: url("eksi.png");
+.accordion-button , .accordion-button:not(.collapsed) {
+background-color: rgb(45, 45, 45);
+color: aliceblue;
 }
 
-.accordion-button:focus{
-    box-shadow: none;
+.accordion-button:not(.collapsed)::after {
+  background-image: url(eksi.png);
 }
 
-footer ul{
+.accordion-body {
+  background-color: rgb(45,45,45);
+  color: rgb(249, 249, 241);
+ 
+}
+
+.accordion-body p {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 200;
+  letter-spacing: 0.1px;
+  word-spacing: 0.1rem;
+  
+}
+
+.kalin-mail {
+    padding: 15px 15px;
+    margin-left: 0.5rem;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+    background-color: red;
+    
+  }
+  
+  .input-group {
+    width: 70%;
+    margin: 0 auto;
+    background-color: transparent;
+    color: wheat;
+  }
+
+  .form-control {
+    background-color: transparent;
+
+  }
+
+  .text-white {
+    font-weight: 500;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    
+  }
+
+  .renk {
+    color: rgb(179,179,179);
+  }
+
+
+  .row li {
+    margin-top: 1rem;
+    margin-left:0;
+  }
+
+  footer ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    
+  }
+
+  footer ul li a {
+    color:rgb(179,179,179);
+    
+  }
+
+.accordion-button{
+ font-size: x-large;
 }
 
-footer ul li a{
-    color: white;
+.yazii {
+  font-weight: bold;
 }
+
+.sonkisim {
+  color: gray;
+  margin-top: 1rem;
+  margin: 0;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+
+.navbar-brand img {
+  height: 80px;
+}
+
+.dropdown-toggle {
+  text-align:right;
+  }
+
+
+.stil {
+  list-style: none;
+
+}
+
+.stil li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.my-6 {
+  background-color: black;
+}
+
+.son {
+  margin-left: 21rem;
+  margin-top: 1rem;
+}
+
+
+.navbar-expand-lg{
+  position: fixed;
+}
+
+.navbar-brand img {
+  height: 130px;
+  margin-left: 10rem;
+}
+
+
+.sayfa {
+  background-color: rgb(33,37,41);
+  height: 83vh;
+}
+
+.anasyfa {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  width: 75%;
+  height: 75vh;
+  padding: 10px;
+  background-color: #1b1a1a;
+  color: #fff;
+}
+
+.anasyfa img {
+  margin-top: 8rem;
+  margin-left: 5rem;
+  
+}
+
+.anasyfa h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.x {
+ width: 30rem;
+ height: 3rem;
+ margin-left: 29rem;
+}
+
+
+
+.headerBodyy {
+  width: 100%;
+  height: 82.6vh;
+  background-image: linear-gradient(rgba(0,0,1,.8), rgba(0,0,0,.5)), url(img/anasayfaresim.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.headerBodyy h1 {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 5rem;
+  font-weight:500;
+}
+
+.headerBodyy h4 {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.y {
+  width: 15%;
+  height: 10%;
+  margin-top: 2rem;
+}
+
+.z {
+  width: 17%;
+  height: 10%;
+  margin-top: 2rem;
+}
+
+.anasyf {
+  width: 100%;
+  height: 60vh;
+  background-color: #1b1a1a;
+  
+}
+
+.kapsycı h1 {
+  font-size: 40px;
+  margin-left: 5rem;
+ 
+}
+
+.kapsycı2 {
+  margin-left: 12rem;
+  width: 80%;
+  height:450px ;
+}
+
+.kapsycı2 img {
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+
+.b {
+  background-color: black;
+}
+
+
+
+.netflixHeaderr {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,1,.8), rgba(0,0,0,.5)), url(img/anasayfaresim.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.c {
+  width: 550px;
+  height: 590px;
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0, 0.7);
+  margin-top: 1rem;
+  margin-left: 45rem;
+}
+
+.c h2 {
+  margin-top: 5rem;
+  margin-left: 5rem;
+  font-size: 2rem;
+}
+
+.f {
+  width: 70%;
+ height: 3rem;
+}
+
+.g {
+  width: 70%;
+ height: 3rem;
+}
+
+.e {
+ margin-top: 2rem;
+ margin-left: 5.4rem;
+ width: 70%;
+ height: 3rem;
+}
+
+.ğ {
+  color: rgb(177, 18, 18);
+  margin-left: 5.5rem;
+}
+
+
+.h {
+  margin-left: 6rem;
+  color: rgb(139, 135, 139);
+  font-size: 1.1rem;
+}
+
+.i {
+  margin-left: 5.5rem;
+  color: rgb(139, 135, 139);
+  font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 667px) {
+    .netflixHeader {
+        height: 78%
+  }
+ 
+
+  .header {
+    padding-top: 0;
+    display: flex;
+        align-items: flex-start;
+        vertical-align: 0;
+  }
+
+  .headerBody {
+    display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  }
+
+  .sec1 {
+    align-items: center;
+    text-align: center;
+  }
+
+  .sec2 {
+    align-items: center;
+    text-align: center;
+  }
+
+  .sec3 {
+    align-items: center;
+    text-align: center;
+  }
+
+  .sec4 {
+    align-items: center;
+    text-align: center;
+  }
+
+  footer {
+    margin: 0;
+  }
+
+  .türkçe {
+    display: none;
+  }
+
+  .Türkçe {
+    white-space: normal;
+    overflow: initial;
+    text-overflow: initial;
+  }
+  
+  .headerBodyy {
+    height: 100%;
+    margin: 0;
+  }
+
+  .headerBodyy h1 {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+
+  .headerBodyy h4 {
+    font-size: 1.2rem;
+  }
+
+  .headerBodyy h5 {
+    font-size: 1rem;
+  }
+
+ .y {
+  width: 16%;
+ }
+
+ .z {
+  width: 40%;
+ }
+  }
